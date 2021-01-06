@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApp", "OnionApp\OnionApp.csproj", "{28CFAC43-20B1-45BD-8D93-F6969CE40ABF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E6D9B501-194E-4A89-8D81-45511B5EEC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Core", "Domain.Core\Domain.Core.csproj", "{1DCEC696-4494-4FC7-8159-9A6CE21EEE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Interfaces", "Domain.Interfaces\Domain.Interfaces.csproj", "{883ED3FB-CA32-443A-9A4C-A3068A6CDAFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1D5C6B6E-9BC3-42FB-B70C-3D0F55D55DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Interfaces", "Services.Interfaces\Services.Interfaces.csproj", "{F685F4A8-BC82-4836-83F4-E6702C93E751}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{18BBCA07-13FF-48D7-AAB2-E367B7A36B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data", "Infrastructure.Data\Infrastructure.Data.csproj", "{39DBFFFC-1265-4199-A99E-2F43F8768631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Business", "Infrastructure.Business\Infrastructure.Business.csproj", "{6BE72B99-7E11-40EA-9944-27CE8017FCA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28CFAC43-20B1-45BD-8D93-F6969CE40ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CFAC43-20B1-45BD-8D93-F6969CE40ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CFAC43-20B1-45BD-8D93-F6969CE40ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CFAC43-20B1-45BD-8D93-F6969CE40ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCEC696-4494-4FC7-8159-9A6CE21EEE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCEC696-4494-4FC7-8159-9A6CE21EEE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCEC696-4494-4FC7-8159-9A6CE21EEE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCEC696-4494-4FC7-8159-9A6CE21EEE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883ED3FB-CA32-443A-9A4C-A3068A6CDAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883ED3FB-CA32-443A-9A4C-A3068A6CDAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883ED3FB-CA32-443A-9A4C-A3068A6CDAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883ED3FB-CA32-443A-9A4C-A3068A6CDAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F685F4A8-BC82-4836-83F4-E6702C93E751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F685F4A8-BC82-4836-83F4-E6702C93E751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F685F4A8-BC82-4836-83F4-E6702C93E751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F685F4A8-BC82-4836-83F4-E6702C93E751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DBFFFC-1265-4199-A99E-2F43F8768631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DBFFFC-1265-4199-A99E-2F43F8768631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DBFFFC-1265-4199-A99E-2F43F8768631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DBFFFC-1265-4199-A99E-2F43F8768631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE72B99-7E11-40EA-9944-27CE8017FCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE72B99-7E11-40EA-9944-27CE8017FCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE72B99-7E11-40EA-9944-27CE8017FCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE72B99-7E11-40EA-9944-27CE8017FCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DCEC696-4494-4FC7-8159-9A6CE21EEE40} = {E6D9B501-194E-4A89-8D81-45511B5EEC17}
+		{883ED3FB-CA32-443A-9A4C-A3068A6CDAFD} = {E6D9B501-194E-4A89-8D81-45511B5EEC17}
+		{F685F4A8-BC82-4836-83F4-E6702C93E751} = {1D5C6B6E-9BC3-42FB-B70C-3D0F55D55DA3}
+		{39DBFFFC-1265-4199-A99E-2F43F8768631} = {18BBCA07-13FF-48D7-AAB2-E367B7A36B6C}
+		{6BE72B99-7E11-40EA-9944-27CE8017FCA4} = {18BBCA07-13FF-48D7-AAB2-E367B7A36B6C}
+	EndGlobalSection
+EndGlobal
